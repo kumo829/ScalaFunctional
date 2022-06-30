@@ -68,8 +68,7 @@ object SugarSyntax extends App {
   class Composite[A, B]
 
   //  val composite: Composite[Int, String] = ???
-  //  val composite: Int Composite String = ???
-  val composite: Int String Composite = ???
+    val composite: Int Composite String = ???
 
   class -->[A, B]
 
