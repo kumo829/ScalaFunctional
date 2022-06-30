@@ -9,3 +9,11 @@ Scala is a programming language with a very flexible syntax that allows the use 
 4. Multi-word method naming
 5. Infix types
 6. The update() method: Is special, much like apply()
+
+Pattern Matching is another widely-used and flexible feature of Scala. The only structures available for pattern matching are:
+- constants
+- wildcards
+- case cases
+- Tuples
+- Classes with companion objects that implements the unapply method (in different fashions)
+- Special elements (like above and classes that implements get and isEmpty methods, like Option)
